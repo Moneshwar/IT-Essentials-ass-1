@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+}
+.about {
+  height: 500px;
+  background-color: #cbe5fa;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 10px;
+}
+.navbar {
+  display: flex;
+}
+
+.navbar-items {
+  margin-left: 500px;
+}
+
+.company-name {
+  font-size: large;
+  padding-left: 4px;
+}
+
+.navbar-items a {
+  margin-left: 64px;
+  font-size: large;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-items a:hover {
+  background-color: #ddd;
+}
+
+.reviews {
+  padding-left: 300px;
+  padding-right: 300px;
+  display: flex;
+}
+
+.grow {
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  height: 50px;
+  margin: 5px;
+  width: 400px;
+  float: left;
+  position: relative;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  text-align: center;
+  overflow: hidden;
+}
+.grow:hover {
+  height: 400px;
+}
+
+.reviews p {
+  padding-top: 50px;
+}
+.reviews h2 {
+  padding-top: 10px;
+}
+
+.courses {
+  padding-left: 200px;
+  padding-right: 200px;
+  display: flex;
+}
+
+.course-box {
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  background-color: #002c51;
+  margin: 5px;
+  width: 400px;
+  text-align: center;
+  height: 500px;
+  color: white;
+}
+
+.course-box p {
+  padding: 8px;
+  font-size: 20px;
+}
+.button {
+  background-color: #4caf50; /* Green */
+  border-radius: 5px;
+  padding: 10px;
+  width: 50%;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+}
+
+.button:hover {
+  background-color: #4caf50;
+  color: white;
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Club</title>
+    <link
+      rel="icon"
+      type="image/favicon"
+      href="images/favicon.ico"
+      sizes="32x32"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="about">
+      <div class="navbar">
+        <a href="#" class="logo"
+          ><img src="images/favicon.ico" alt="coding club"
+        /></a>
+        <div style="padding-top: 15px; display: flex">
+          <span class="company-name">Coding Club</span>
+          <div class="navbar-items">
+            <a href="#home">Home</a>
+            <a href="#courses" onclick="scrollToCourses()">Courses</a>
+            <a href="#reviews" onclick="scrollToReviews()">Reviews</a>
+            <a href="mailto:moneshwar02@gmail.com">Contact us ✉️</a>
+          </div>
+        </div>
+      </div>
+      <div style="display: flex">
+        <div style="margin-top: 100px">
+          <h1>Don't just be a coder</h1>
+          <h2 style="padding-top: 10px; color: #05076e8c">
+            Be a <span style="font-weight: bolder; color: blue">Pro</span>-coder
+          </h2>
+          <h2 style="padding-top: 20px">More than 1000 students trust us</h2>
+        </div>
+        <div>
+          <img
+            src="images/coding.png"
+            alt="coding"
+            height="350px"
+            style="margin-top: 50px; margin-left: 350px"
+          />
+        </div>
+      </div>
+    </div>
+    <h1 id="courses" style="text-align: center; padding: 20px">Courses</h1>
+    <div class="courses">
+      <div class="course-box">
+        <h1 style="margin-top: 10px">DSA for Interviews</h1>
+        <img
+          src="images/dsa.jpg"
+          alt="dsa"
+          height="150px"
+          style="margin-top: 20px; margin-bottom: 20px"
+        />
+        <div style="text-align: left; margin-left: 60px">
+          <p>Price: $100</p>
+          <p>Duration: 100 Hrs</p>
+          <p>Language: English</p>
+          <p>Prerequesite: None</p>
+        </div>
+        <button class="button" onclick="buyNow('DSA')">Buy now</button>
+      </div>
+      <div class="course-box">
+        <h1 style="margin-top: 10px">Full stack development</h1>
+        <img
+          src="images/mern.png"
+          alt="dsa"
+          height="150px"
+          style="margin-top: 20px; margin-bottom: 20px"
+        />
+        <div style="text-align: left; margin-left: 60px">
+          <p>Price: $100</p>
+          <p>Duration: 100 Hrs</p>
+          <p>Language: English</p>
+          <p>Prerequesite: None</p>
+        </div>
+        <button class="button" onclick="buyNow('Full stack development')">
+          Buy now
+        </button>
+      </div>
+      <div class="course-box">
+        <h1 style="margin-top: 10px">Machine Learning</h1>
+        <img
+          src="images/ml.jpg"
+          alt="dsa"
+          height="150px"
+          style="margin-top: 20px; margin-bottom: 20px"
+        />
+        <div style="text-align: left; margin-left: 60px">
+          <p>Price: $100</p>
+          <p>Duration: 100 Hrs</p>
+          <p>Language: English</p>
+          <p>Prerequesite: None</p>
+        </div>
+        <button class="button" onclick="buyNow('Machine Learning')">
+          Buy now
+        </button>
+      </div>
+      <div class="course-box">
+        <h1 style="margin-top: 10px">System Design</h1>
+        <img
+          src="images/systemdesign.jpg"
+          alt="dsa"
+          height="150px"
+          style="margin-top: 20px; margin-bottom: 20px"
+        />
+        <div style="text-align: left; margin-left: 60px">
+          <p>Price: $100</p>
+          <p>Duration: 100 Hrs</p>
+          <p>Language: English</p>
+          <p>Prerequesite: None</p>
+        </div>
+        <button class="button" onclick="buyNow('System Design')">
+          Buy now
+        </button>
+      </div>
+    </div>
+    <h1 id="reviews" style="text-align: center; padding: 20px">Reviews</h1>
+    <div class="reviews">
+      <div class="grow" style="background-color: #0091f8">
+        <h2>Tire 3 to FAANG</h2>
+        <p>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature Lorem Ipsum is
+          simply dummy text of the printing and typesetting industry. Lorem
+          Ipsum has been the industry's standard dummy text ever since the
+          1500s, when an unknown printer took a galley of type and scrambled it
+          to make a type specimen book. It has survived not only five centuries,
+          but also the leap into electronic typesetting, remaining essentially
+          unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently
+          with desktop publishing software like Aldus PageMaker including
+          versions of Lorem Ipsum
+        </p>
+      </div>
+      <div class="grow" style="background-color: #0091f8">
+        <h2>Service Based to Product based</h2>
+        <p>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature Lorem Ipsum is
+          simply dummy text of the printing and typesetting industry. Lorem
+          Ipsum has been the industry's standard dummy text ever since the
+          1500s, when an unknown printer took a galley of type and scrambled it
+          to make a type specimen book. It has survived not only five centuries,
+          but also the leap into electronic typesetting, remaining essentially
+          unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently
+          with desktop publishing software like Aldus PageMaker including
+          versions of Lorem Ipsum
+        </p>
+      </div>
+      <div class="grow" style="background-color: #0091f8">
+        <h2>300% Hike in 3 months</h2>
+        <p>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature Lorem Ipsum is
+          simply dummy text of the printing and typesetting industry. Lorem
+          Ipsum has been the industry's standard dummy text ever since the
+          1500s, when an unknown printer took a galley of type and scrambled it
+          to make a type specimen book. It has survived not only five centuries,
+          but also the leap into electronic typesetting, remaining essentially
+          unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently
+          with desktop publishing software like Aldus PageMaker including
+          versions of Lorem Ipsum
+        </p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <noscript
+      >Sorry, your browser may not support JavaScript! orJavaScript is disabled
+      in your browser
+    </noscript>
+  </body>
+</html>
